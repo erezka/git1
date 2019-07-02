@@ -1,5 +1,5 @@
 package TestingGit;
-
+//даже не знаю, зачем тут нужен этот класс
 public class human {
 
     public human() {
