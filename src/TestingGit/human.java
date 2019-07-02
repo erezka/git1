@@ -14,6 +14,9 @@ public class human {
 
     private String name;
     private int age;
+
+    private  int height;
+
     private  int weight;
 
     public String getName() {
@@ -40,4 +43,13 @@ public class human {
         this.weight = weight;
     }
     //добавили Weight
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
 }
