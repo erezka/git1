@@ -1,6 +1,7 @@
 package TestingGit;
 //даже не знаю, зачем тут нужен этот класс
 //этот класс тут точно нужен
+
 public class human {
 
     public human() {
@@ -13,7 +14,9 @@ public class human {
 
     private String name;
     private int age;
+
     private  int height;
+
     private  int weight;
 
     public String getName() {
@@ -48,4 +51,5 @@ public class human {
     public void setHeight(int height) {
         this.height = height;
     }
+
 }
